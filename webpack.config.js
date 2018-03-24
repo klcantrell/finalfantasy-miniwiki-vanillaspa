@@ -10,11 +10,12 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, 'dist'),
-    // publicPath: 'https://s3.us-east-2.amazonaws.com/kals-portfolio-assets/ffminiwiki/',
+    publicPath: 'https://s3.us-east-2.amazonaws.com/kals-portfolio-assets/ffminiwiki/',
 		filename: "[name].bundle.js"
 	},
   devServer: {
     open: false,
+    publicPath: '/',
     historyApiFallback: true
   },
 	module: {
@@ -79,6 +80,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
             outputPath: 'data/',
+            publicPath: 'data/',
             name: '[name].[ext]'
           }
         }
