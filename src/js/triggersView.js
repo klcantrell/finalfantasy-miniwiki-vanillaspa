@@ -2,8 +2,6 @@ export default function TriggersView (eventBus) {
   const elsArray = [].slice.call(document.querySelectorAll('.js_load-content')),
         triggers = {};
 
-  console.log(elsArray);
-
   elsArray.forEach((el) => {
     const triggerName = el.getAttribute('routeTo');
     triggers[triggerName] = el;
