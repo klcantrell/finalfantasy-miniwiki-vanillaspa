@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('https://s3.us-east-2.amazonaws.com/kals-portfolio-assets/fonts/JuliusSansOne-Regular.ttf') format('truetype');
+}
+
 * {
 	box-sizing: border-box;
 }
 
 body {
+	font-family: 'Julius Sans One';
 	background: black;
 }
 
