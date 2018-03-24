@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		title Final Fantasy VII MiniWiki
+		link(rel='stylesheet' href='main.css')
+	body
+		main(class="mainView" id="js_mainEl")
+			section(class='characters')
+				include includes/all-characters.pug
+			section(class='info js_character')
+				h1(class="info__header") Select a Character
+				script(src="app.bundle.js")

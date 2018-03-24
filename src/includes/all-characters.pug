@@ -1,0 +1,12 @@
+-const characters = ['barret-wallace', 'tifa-lockhart', 'cloud-strife'];
+
+each item in characters
+	-const character = require(`../imgs/${item}.jpg`);
+	a(routeTo=`${item}`
+		data-src=`${character.src}`
+		data-alt=`${item}`
+		data-srcset=`${character.srcSet}`
+		data-sizes='(min-width: 750px) 240px, 150px'
+		class='hero-pic__container replace js_load-content')
+		img(src=`${character.placeholder}`
+				class='hero-preview')

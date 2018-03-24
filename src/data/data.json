@@ -1,0 +1,20 @@
+{
+  "cloud-strife": {
+    "name": "Cloud Strife",
+    "hometown": "Nibelheim",
+    "weapon": "Buster Sword",
+    "sprite": "cloud-sprite.png"
+  },
+  "tifa-lockhart": {
+    "name": "Tifa Lockhart",
+    "hometown": "Nibelheim",
+    "weapon": "Leather Gloves",
+    "sprite": "tifa-sprite.png"
+  },
+  "barret-wallace": {
+    "name": "Barret Wallace",
+    "hometown": "Nibelheim",
+    "weapon": "Gatling Gun",
+    "sprite": "barret-sprite.png"
+  }
+}
