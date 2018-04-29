@@ -11,7 +11,7 @@ User can:
 
 Tech Highlights:
 
-* Used AJAX to fetch new character info
+* Used **AJAX** to fetch new character info
 * Used vanilla JS to re-render views based on selected character
 * Created a **vanilla JS history API router** from scratch
 * Images are progressively loaded from blurred placeholders to full images
