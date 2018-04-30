@@ -16,4 +16,4 @@ Tech Highlights:
 * Created a **vanilla JS history API router** from scratch
 * Images are progressively loaded from blurred placeholders to full images
 
-[Visit the Site!]: (https://finalfantasy-miniwiki.surge.sh/)
+[Visit the Site!]:(https://finalfantasy-miniwiki.surge.sh/)
